@@ -14,8 +14,8 @@ A React sample demonstrating the Syncfusion React Gantt Chart with task data, su
 
 ### Prerequisites
 
-- Node.js installed
-- npm available
+- Node.js (LTS or later)
+- npm 
 
 ### Install
 
@@ -33,7 +33,7 @@ Open `http://localhost:3000`.
 
 ## How it works
 
-`src/App.tsx` maps `taskValues` to the Gantt data model using `src/data.js`. The chart renders the configured columns and row data.
+`src/App.tsx` renders the `GanttComponent` using a task field mapping configuration and local sample data (for example, `src/data.ts` or `src/data.js`). The Gantt chart uses this configuration to display the timeline, columns, and task hierarchy.
 
 Mapped fields:
 
@@ -48,7 +48,7 @@ Mapped fields:
 
 ## Customization
 
-To change the timeline view, add `timelineSettings` to `GanttComponent` in `src/App.tsx`:
+Timeline behavior can be adjusted using the `timelineSettings` property on the `GanttComponent`.
 
 ```tsx
 <GanttComponent
@@ -60,4 +60,4 @@ To change the timeline view, add `timelineSettings` to `GanttComponent` in `src/
 
 ## Notes
 
-This sample focuses on basic Syncfusion Gantt features and serves as a starting point for extending the chart with editing, sorting, filtering, and additional settings.
+This sample focuses on core Syncfusion Gantt functionality and serves as a starting point for adding features such as editing, sorting, and filtering.
