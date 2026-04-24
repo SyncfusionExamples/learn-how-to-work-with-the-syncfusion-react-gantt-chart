@@ -1,13 +1,63 @@
-# Learn How to Work with the Syncfusion React Gantt Chart
+# Syncfusion React Gantt Chart Sample
 
-Quickly get started with the Syncfusion React Gantt Chart. This project contains a few of the control’s basic features, like setting timeline views, customizing the columns, and task dependencies. 
+A React sample demonstrating the Syncfusion React Gantt Chart with task data, subtasks, custom columns, and dependency mapping.
 
-Documentation: https://ej2.syncfusion.com/react/documentation/gantt/getting-started/
+## Features
 
-Online examples: https://ej2.syncfusion.com/react/demos/#/material/gantt/default
+- Renders a Syncfusion Gantt chart in React
+- Uses `@syncfusion/ej2-react-gantt`
+- Displays subtasks, dates, duration, and progress
+- Maps task data fields to the Syncfusion model
+- Supports timeline view updates via `timelineSettings`
 
-## Project prerequisites
-Make sure that you have the lastest versions of NodeJS and visual studio code in your machine before starting to work on this project.
+## Getting started
 
-### How to run this application?
-To run this application, you need to clone the `learn-how-to-work-with-the-syncfusion-react-gantt-chart` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using npm install command and run your project using the npm start command.
+### Prerequisites
+
+- Node.js (LTS or later)
+- npm 
+
+### Install
+
+```bash
+npm install
+```
+
+### Run
+
+```bash
+npm start
+```
+
+Open `http://localhost:3000`.
+
+## How it works
+
+`src/App.tsx` renders the `GanttComponent` using a task field mapping configuration and local sample data (for example, `src/data.ts` or `src/data.js`). The Gantt chart uses this configuration to display the timeline, columns, and task hierarchy.
+
+Mapped fields:
+
+- `TaskID`
+- `TaskName`
+- `StartDate`
+- `EndDate`
+- `Duration`
+- `Progress`
+- `subtasks`
+- `Predeceesor`
+
+## Customization
+
+Timeline behavior can be adjusted using the `timelineSettings` property on the `GanttComponent`.
+
+```tsx
+<GanttComponent
+  dataSource={projectData}
+  taskFields={taskValues}
+  timelineSettings={{ timelineViewMode: 'Day' }}
+>
+```
+
+## Notes
+
+This sample focuses on core Syncfusion Gantt functionality and serves as a starting point for adding features such as editing, sorting, and filtering.
