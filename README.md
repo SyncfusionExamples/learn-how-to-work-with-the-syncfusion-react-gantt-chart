@@ -1,6 +1,6 @@
 # Syncfusion React Gantt Chart Sample
 
-A React sample demonstrating the Syncfusion React Gantt Chart with task data, subtasks, custom columns, and dependency mapping.
+A React sample demonstrating the Syncfusion [React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples) with task data, subtasks, custom columns, and dependency mapping.
 
 ## Features
 
