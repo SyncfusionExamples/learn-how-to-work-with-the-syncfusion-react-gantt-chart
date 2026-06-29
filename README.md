@@ -61,3 +61,11 @@ Timeline behavior can be adjusted using the `timelineSettings` property on the `
 ## Notes
 
 This sample focuses on core Syncfusion Gantt functionality and serves as a starting point for adding features such as editing, [sorting](https://ej2.syncfusion.com/react/documentation/gantt/sorting?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples), and [filtering](https://ej2.syncfusion.com/react/documentation/gantt/filtering/filtering?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples).
+
+## Related Links
+
+- [Explore React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples)
+- [Gantt Chart Feature Overview](https://ej2.syncfusion.com/react/documentation/gantt/overview?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples)
+- [React Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/react/documentation/gantt/getting-started?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples)
+- [React Gantt API Documentation](https://ej2.syncfusion.com/react/documentation/api/gantt/index-default?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples)
+- [React Gantt Chart Live Demos and Examples](https://ej2.syncfusion.com/react/demos/?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples#/tailwind3/gantt/default)
