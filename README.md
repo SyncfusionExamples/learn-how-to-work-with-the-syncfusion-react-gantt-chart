@@ -1,6 +1,6 @@
 # Syncfusion React Gantt Chart Sample
 
-A React sample demonstrating the Syncfusion [React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples) with task data, subtasks, custom columns, and [dependency mapping](https://ej2.syncfusion.com/react/documentation/gantt/task-dependency?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples).
+A React sample demonstrating the Syncfusion [React Gantt Chart](https://www.syncfusion.com/gantt-sdk/react-gantt-chart?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples) with task data, subtasks, custom columns, and [dependency mapping](https://ej2.syncfusion.com/react/documentation/gantt/task-dependency?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples).
 
 ## Features
 
@@ -64,7 +64,7 @@ This sample focuses on core Syncfusion Gantt functionality and serves as a start
 
 ## Related Links
 
-- [Explore React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples)
+- [Explore React Gantt Chart](https://www.syncfusion.com/gantt-sdk/react-gantt-chart?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples)
 - [Gantt Chart Feature Overview](https://ej2.syncfusion.com/react/documentation/gantt/overview?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples)
 - [React Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/react/documentation/gantt/getting-started?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples)
 - [React Gantt API Documentation](https://ej2.syncfusion.com/react/documentation/api/gantt/index-default?utm_source=github&utm_medium=listing&utm_campaign=react-gantt-chart-github-samples)
